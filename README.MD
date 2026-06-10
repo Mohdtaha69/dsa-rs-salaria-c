@@ -25,3 +25,25 @@ To get really strong at DSA fundamentals using C. I want to focus on understandi
 
 
 I'll update this table as I complete each chapter.
+
+## Repository Structure
+dsa-rs-salaria-c/
+├── README.md
+├── chapters/
+│   ├── 01-essentials of c-language/
+│   ├── 02-overview of data structures/
+│   ├── 03-program design and development/
+│   └── ...
+├── practice-problems/
+├── resources/          # My notes, important points, formulas
+└── .gitignore
+
+---
+
+## How to Compile and Run
+
+```bash
+gcc filename.c -o output
+./output.exe
+
+Made with ❤️ by Mohd Taha
