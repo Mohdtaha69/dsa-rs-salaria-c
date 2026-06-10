@@ -1,0 +1,52 @@
+# Compiled binaries and executables
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+
+# Temporary files
+*.tmp
+*.temp
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# MinGW / Windows specific
+*.exe.stackdump
+
+# Object files and libraries
+*.a
+*.lib
+
+# Debug files
+*.pdb
+*.ilk
+
+# Build directories
+build/
+dist/
+out/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+*.swp
+*.swo
+*~
+
+# Personal notes (optional - remove if you want to track them)
+resources/private/
+
+# Any large binary files (images, PDFs, etc.)
+*.pdf
+*.jpg
+*.png
+*.gif
