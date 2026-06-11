@@ -73,4 +73,53 @@ enum datatype var_name
         statement;
    ```
    ## 1.5.2 the looping statement
-   
+   ### 1.5.2.1 the while statement 
+    ```
+    while(expression){
+        statement
+    }
+    ```
+   ### 1.5.2.2 the for statement
+    ```
+    for(init;test;change){
+        statement
+    }
+    ```
+
+   ### 1.5.2.3 do while
+   ```
+   do{
+    statement 
+   }
+   while(expression);
+
+   ```
+   ### 1.5.2.4 nesting of loops
+   nesting of loops is also possible 
+
+  ## 1.5.3 jumping statement 
+  ### 1.5.3.1 break
+    use to terminate statment  
+  ### 1.5.3.2 continue 
+    use to skip that iteration 
+  ### 1.5.3.2 goto statment 
+    ```
+    goto label:
+        statment
+    label:
+    ```
+# 1.6 memory use in c
+when program runs
+os assign memory in different section
+  - code area -> named_TEXT program resides
+  - data area -> further devided into 3 section 
+    -- DATA - global uninitialized and initialized data and uninitialize static data
+    -- CONST - constant stored in variables
+    -- BLOCK STARTED SEGMENT (BSS) -> contains uninitialize static data
+  - stack area -> grows towards loweer memory as it filled 
+  - heap -> grows toward high memory as it filled
+     - we need to maintain allocation of memory from this section
+
+# 1.7 pointers 
+
+
