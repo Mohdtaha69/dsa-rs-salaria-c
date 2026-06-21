@@ -2,6 +2,9 @@
 #include<stdio.h>
 int main(){
     int arr[] = {23,12,45,67};
+
+    // bubble sort
+    
     for(int i = 0; i<4; i++){
         for(int j = 0; j<4; j++){
             if(arr[i]<arr[j]){
