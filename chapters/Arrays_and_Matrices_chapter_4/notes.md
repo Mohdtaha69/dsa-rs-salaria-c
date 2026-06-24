@@ -1,3 +1,4 @@
+#sorting
 ```
 // sorting
 #include<stdio.h>
@@ -24,6 +25,7 @@ int main(){
 
 ```
 
+# merging sorted array
 
 
 ```
