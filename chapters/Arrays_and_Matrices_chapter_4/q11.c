@@ -15,8 +15,7 @@ int saddlePoint(int m,int n, int a[m][n]){
         int check =1;
         int min =a[i][0];
         idx = 0;
-        for(int j=0; j<n; j++){
-            
+        for(int j=0; j<n; j++){ 
             if(a[i][j]<min){
                 min =a[i][j];
                 idx = j;
